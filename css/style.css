@@ -2,4 +2,118 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* general container main l and r */
+
+#container{
+    display: flex;
+
+}
+
+/* right menu and logo */
+
+/* general container menu */
+
+.menucont {
+    background-color: black;
+    max-height: 100%;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+
+}
+
+/* logo */
+
+.logo{
+
+}
+
+/* menu up */
+
+
+.contu{
+
+}
+
+.menul{
+
+}
+
+#borderl{
+
+}
+
+.playlist{
+
+}
+
+/* menu down */
+.contd{
+
+}
+
+/* main content */
+
+/* general conteiner main cont */
+.contcont{
+    overflow: auto;
+    height: calc(100vh - 90px);
+    width: calc(100% - 250px);
+    background-color: rgb(33, 33, 33);
+
+}
+
+/* header main cont */
+
+.cheader{
+    height: 70px;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+/* central menu main cont */
+.menuc{
+
+}
+
+/* container main cont */
+.maincont{
+
+}
+
+/* container img h5 p */
+.cont{
+
+}
+
+.album{
+
+}
+
+/* footer */
+
+footer {
+    height: 90px;
+    background-color: rgb(18, 18, 18);
+}
+
+/* left sec footer */
+.fl{
+
+}
+
+/* central sec footer */
+.fc{
+
+}
+
+/* right sec footer */
+.fr{
+
 }

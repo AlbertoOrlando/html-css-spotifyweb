@@ -268,13 +268,13 @@
     left: 50%;
     display: none;
     z-index: 99;
+    transform: translate(-50%, -50%);
 
     
 }
  #fz{
     font-size: 80px;
     color: rgb(82, 82, 82);
-    transform: translate(-50%, -50%);
 }
 
 .album{

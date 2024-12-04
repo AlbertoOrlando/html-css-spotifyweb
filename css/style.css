@@ -5,6 +5,12 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+.anone{
+    text-decoration: none;
+    color: lightgray;
+
+}
+
 /* general container main l and r */
 
 #container{
@@ -30,7 +36,20 @@
 /* logo */
 
 .logo{
+    padding: 10px 20px;
+}
 
+.logo img{
+    max-width: 60%;
+}
+
+.logomob{
+    padding: 10px 20px;
+}
+
+.logomob img{
+    display: none;
+    max-width: 100%;
 }
 
 /* menu up */
@@ -45,16 +64,79 @@
 }
 
 #borderl{
+    border-left: 2px solid yellowgreen;
+    padding: 5px 20px;
+}
 
+#borderl a{
+    color:white;
+}
+
+.lile{
+    padding: 5px 20px;
+}
+
+.tile{
+    color: white;
+    padding: 0px 20px;
+    padding-top: 10px;
+    padding-bottom: 5px;
 }
 
 .playlist{
 
 }
 
+.fa-plus{
+    color: black;
+    background-color: lightgray;
+    border: 1px solid black;
+    font-size: 25px;
+    padding: 5px 5px;
+    margin-bottom: 10px;
+    margin-right: 5px;
+}
+
+.nplay{
+    font-size: 13px;
+}
+
 /* menu down */
 .contd{
 
+}
+
+.fa-arrow-down{
+    color: lightgray;
+    border: 1px solid lightgray;
+    border-radius: 50%;
+    padding: 2px 2px;
+    font-size: 10px;
+}
+
+.bord{
+    border-bottom: 1px solid lightgray;
+    margin: 5px 20px;
+}
+
+.fa-user{
+    color: white;
+    background-color: lightgray;
+    border-radius: 50%;
+    padding: 5px 5px;
+    font-size: 20px;
+}
+
+.cw{
+    color: white;
+    font-size: 20px;
+}
+
+.cl{
+    color: lightgray;
+}
+.ia{
+    padding: 5px 20px;
 }
 
 /* main content */
@@ -65,6 +147,7 @@
     height: calc(100vh - 90px);
     width: calc(100% - 250px);
     background-color: rgb(33, 33, 33);
+    position: relative;
 
 }
 
@@ -72,9 +155,27 @@
 
 .cheader{
     height: 70px;
+    position: relative;
+    background-color: rgba(22, 22, 22, 0.5);
     position: sticky;
     top: 0;
     left: 0;
+}
+
+.button{
+    position: absolute;
+    top: 50%;
+    right: 5px;
+    transform: translate(0%, -50%);
+    border: 1px solid white;
+    padding: 8px 25px;
+    border-radius: 50px;
+}
+
+.button a {
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
 }
 
 /* central menu main cont */

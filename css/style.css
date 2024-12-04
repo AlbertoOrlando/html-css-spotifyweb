@@ -268,22 +268,224 @@ footer {
     bottom: 0;
     left: 0;
     z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 5px;
 }
 
 /* left sec footer */
 .fl{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 13%;
+}
 
+.flcont1{
+    display: flex;
+    width: 70%;
+    align-items: center;
+}
+
+.albumcon{
+    width: 40%;
+}
+
+.infocon{
+    width: 60%;
+}
+
+.albumcon img{
+    max-width: 90%;
+    padding: 0x 5px;
+}
+
+.flcont2 ul {
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+}
+
+.ful li{
+    list-style: none;
+}
+
+.ful2 li{
+    list-style: none;
+}
+
+#endl{
+    margin-left: 5px;
+}
+
+.tith6{
+    color: white;
+    font-size: 14px;
+}
+
+.pfl{
+    color: lightgray;
+    font-size: 11px;
+}
+
+.flcont2 ul a{
+    display: inline-block;
 }
 
 /* central sec footer */
 .fc{
-
+    width: 30%;
 }
+
+.fa-shuffle{
+    color: white;
+    font-size: 20px;
+    margin: 5px 10px;
+}
+
+.fa-backward-step{
+    color: white;
+    font-size: 20px;
+    margin: 5px 10px;
+}
+
+.fa-circle-play{
+    color: white;
+    font-size: 25px;
+    margin: 5px 10px;
+}
+.fa-forward-step{
+    color: white;
+    font-size: 20px;
+    margin: 5px 10px;
+}
+
+.fa-rotate-right{
+    color: white;
+    font-size: 20px;
+    margin: 5px 10px;
+}
+
+.fcu ul li{
+    display: inline-block;
+}
+
+.fcu{
+    text-align: center;
+}
+
+.fcd{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-top: 10px;
+}
+
+.bordcol{
+    border: 2px solid lightgray;
+    width: 20%;
+    border-radius: 9999px;
+}
+
+.bordcol:hover {
+    border: 2px solid yellowgreen;
+}
+
+.bordchia{
+    width: 50%;
+    border: 2px solid gray;
+    border-radius: 9999px;
+}
+
+.spanf{
+    color: white;
+    font-size: 10px;
+}
+
+.spanf1{
+    margin-right: 20px;
+}
+
+.spanf2{
+    margin-left: 20px;
+}
+
+.pallino{
+    border: 6px solid lightgray;
+    border-radius: 50%;
+    background-color: yellowgreen;
+    font-size: 100px;
+    position: absolute;
+    top: 1px;
+    left: 140px;
+    display: none;
+}
+
+.fcd:hover .pallino{
+    display: block;
+}
+
 
 /* right sec footer */
 .fr{
-
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 18%;
 }
+
+.fcdl{
+    width: 30%;
+}
+
+.fa-list{
+    color: white;
+    font-size: 11px;
+}
+
+.fa-display{
+    color: white;
+    font-size: 11px;
+    margin-left: 5px;
+}
+
+.fa-volume-high{
+    color: white;
+    font-size: 11px;
+    margin-left: 5px;
+}
+
+.fcdl ul li{
+    display: inline-block;
+}
+
+.pallino2{
+    border: 6px solid lightgray;
+    border-radius: 50%;
+    background-color: yellowgreen;
+    font-size: 100px;
+    position: absolute;
+    top: -4px;
+    left: 60px;
+    display: none;
+}
+
+.fcd2:hover .pallino2{
+    display: block;
+}
+
+.fcd2{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-top: 10px;
+}
+
+
 
 /* tablet version */
 
@@ -298,6 +500,68 @@ footer {
     .cont, .cont2, .cont3, .cont4, .cont5, .cont6{
         width: 22%;
     }
+
+    .tith6{
+        font-size: 12px;
+    }
+    
+    .pfl{
+        font-size: 8px;
+    }
+
+    .fa-heart{
+        font-size: 13px;
+    }
+
+    .fa-folder{
+        font-size: 13px;
+    }
+
+    
+.fa-shuffle{
+    color: white;
+    font-size: 15px;
+    margin: 5px 10px;
+}
+
+.fa-backward-step{
+    color: white;
+    font-size: 15px;
+    margin: 5px 10px;
+}
+
+.fa-circle-play{
+    color: white;
+    font-size: 20px;
+    margin: 5px 10px;
+}
+.fa-forward-step{
+    color: white;
+    font-size: 15px;
+    margin: 5px 10px;
+}
+
+.fa-rotate-right{
+    color: white;
+    font-size: 15px;
+    margin: 5px 10px;
+}
+
+.fa-list{
+    color: white;
+    font-size: 8px;
+}
+
+.fa-display{
+    color: white;
+    font-size: 8px;
+}
+
+.fa-volume-high{
+    color: white;
+    font-size: 8px;
+}
+
 }
 
 /* mobile version */
@@ -329,4 +593,59 @@ footer {
     .cont, .cont2, .cont3, .cont4, .cont5, .cont6{
         width: 45%;
     }
+
+    .tith6{
+        font-size: 10px;
+    }
+    
+    .pfl{
+        font-size: 6px;
+    }
+
+    .fa-heart{
+        font-size: 10px;
+    }
+    .fa-folder{
+        font-size: 10px;
+    }
+
+    
+    .fa-shuffle{
+        color: white;
+        font-size: 12px;
+    }
+
+    .fa-backward-step{
+        color: white;
+        font-size: 12px;
+    }
+
+    .fa-circle-play{
+        color: white;
+        font-size: 15px;
+    }
+    .fa-forward-step{
+        color: white;
+        font-size: 12px;
+    }
+
+    .fa-rotate-right{
+        color: white;
+        font-size: 12px;
+    }
+    .fa-list{
+        color: white;
+        font-size: 8px;
+    }
+
+    .fa-display{
+        color: white;
+        font-size: 8px;
+    }
+
+    .fa-volume-high{
+        color: white;
+        font-size: 8px;
+    }
+
 }

@@ -254,9 +254,35 @@
     padding: 10px 30px;
 }
 
-.album:hover{
+.album:hover .flexf{
+    display: block;
+}
+
+.album:hover img{
     opacity: 0.5;
 }
+
+.flexf{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: none;
+    z-index: 99;
+
+    
+}
+ #fz{
+    font-size: 80px;
+    color: rgb(82, 82, 82);
+    transform: translate(-50%, -50%);
+}
+
+.album{
+    position: relative;
+}
+
+
+
 
 
 /* footer */
@@ -278,7 +304,7 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 13%;
+    width: 15%;
 }
 
 .flcont1{
@@ -334,7 +360,7 @@ footer {
 
 /* central sec footer */
 .fc{
-    width: 30%;
+    width: 55%;
 }
 
 .fa-shuffle{
@@ -433,7 +459,7 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 18%;
+    width: 20%;
 }
 
 .fcdl{
@@ -518,49 +544,53 @@ footer {
     }
 
     
-.fa-shuffle{
-    color: white;
-    font-size: 15px;
-    margin: 5px 10px;
-}
+    .fa-shuffle{
+        color: white;
+        font-size: 15px;
+        margin: 5px 10px;
+    }
 
-.fa-backward-step{
-    color: white;
-    font-size: 15px;
-    margin: 5px 10px;
-}
+    .fa-backward-step{
+        color: white;
+        font-size: 15px;
+        margin: 5px 10px;
+    }
 
-.fa-circle-play{
-    color: white;
-    font-size: 20px;
-    margin: 5px 10px;
-}
-.fa-forward-step{
-    color: white;
-    font-size: 15px;
-    margin: 5px 10px;
-}
+    .fa-circle-play{
+        color: white;
+        font-size: 20px;
+        margin: 5px 10px;
+    }
+    .fa-forward-step{
+        color: white;
+        font-size: 15px;
+        margin: 5px 10px;
+    }
 
-.fa-rotate-right{
-    color: white;
-    font-size: 15px;
-    margin: 5px 10px;
-}
+    .fa-rotate-right{
+        color: white;
+        font-size: 15px;
+        margin: 5px 10px;
+    }
 
-.fa-list{
-    color: white;
-    font-size: 8px;
-}
+    .fa-list{
+        color: white;
+        font-size: 8px;
+    }
 
-.fa-display{
-    color: white;
-    font-size: 8px;
-}
+    .fa-display{
+        color: white;
+        font-size: 8px;
+    }
 
-.fa-volume-high{
-    color: white;
-    font-size: 8px;
-}
+    .fa-volume-high{
+        color: white;
+        font-size: 8px;
+    }
+
+    #fz{
+        font-size: 70px;
+    }
 
 }
 
@@ -646,6 +676,10 @@ footer {
     .fa-volume-high{
         color: white;
         font-size: 8px;
+    }
+
+    #fz{
+        font-size: 100px;
     }
 
 }

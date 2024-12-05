@@ -239,7 +239,7 @@
 
 .maincont2{
     display: flex;
-    gap: 3%;
+    gap: 2%;
 }
 
 .bordalb img{
@@ -274,7 +274,7 @@
 }
  #fz{
     font-size: 80px;
-    color: rgb(82, 82, 82);
+    color: white;
 }
 
 .album{
